@@ -1,2 +1,75 @@
 @use '../mixin.scss';
 @use '../vars.scss';
+
+
+.main__container {
+    background-color: vars.$background_grey;
+    color: vars.$font_blue;
+    width: 200px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-right: 1px solid vars.$border_grey;
+
+    .main__header {
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .main__logo{
+        background-color: vars.$background_green;
+        padding: 3px;
+        margin-right: 0.5rem;
+        border-radius: 70%;
+        color: white;
+    }
+
+    .main__border {
+        border-bottom: 1px solid vars.$border_grey;
+        width: auto;
+        width: 200px;
+        margin-bottom: 0.5rem;
+    }
+
+    .main_buttonContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__button{
+        background-color: vars.$background_green;
+        color: white;
+        margin: 0.8rem;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .main__linkContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .main__linkContent ul:first-child {
+        margin-bottom: 35vh;
+    }
+    .main__link {
+        margin-bottom: 1rem;
+        cursor: pointer;
+        padding-left: 1rem;
+    }
+    .main__linkColor{
+        margin-bottom: 1rem;
+        cursor: pointer;
+        background-color: vars.$background_lightgreen;
+        padding: 0.8rem 0;
+        padding-left: 1rem;
+    }
+}
