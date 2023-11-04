@@ -4,11 +4,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "../App/reset.scss";
 import '../App/mixin.scss';
 
+import Missions from "../../Pages/Missions";
+
 const App = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element="" />
+                <Route path="/" element={<Missions />} />
             </Routes>
         </BrowserRouter>
     )
