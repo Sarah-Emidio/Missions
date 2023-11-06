@@ -5,7 +5,10 @@ const Main = () => {
         <div className='main__container'>
 
             <div className='main__header'>
-                <span className='main__title'><span className='main__logo'>C</span>
+                <span className='main__title'>
+                    <span className='main__logo'>
+                        C
+                    </span>
                     Ciel bleu
                 </span>
 
