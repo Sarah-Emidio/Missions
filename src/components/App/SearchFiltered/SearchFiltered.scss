@@ -1,2 +1,30 @@
 @use '../mixin.scss';
 @use '../vars.scss';
+
+.SearchFiltered__container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 16px 0 16px;
+    width: 100%;
+}
+
+.search__container {
+    border: 1px solid vars.$border_grey;
+    width: 60%;
+    padding: 0.5rem 1rem;
+
+    .search__img {
+        width: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .search__input {
+        border: none;
+        width: 80%;
+        // margin-bottom: 0.5rem;
+    }
+
+    .search__img {
+        width: 2rem;
+    }
+}

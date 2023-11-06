@@ -36,9 +36,11 @@ const Missions = () => {
     return (
         <>
             <div className="container">
-                {showMain && <Main toggleMain={toggleMain}/>}
-                <Header toggleMain={toggleMain}/>
-                <SearchFiltered />
+                {showMain && <Main toggleMain={toggleMain} />}
+                <div className="main__content">
+                    <Header toggleMain={toggleMain} />
+                    <SearchFiltered />
+                </div>
             </div>
         </>
     )
