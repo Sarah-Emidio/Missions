@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Main from "../components/App/Main/Main";
 import Header from "../components/App/Header/Header";
+import SearchFiltered from "../components/App/SearchFiltered/SearchFiltered";
 
 import '../Pages/Missions.scss';
 
@@ -37,6 +38,7 @@ const Missions = () => {
             <div className="container">
                 {showMain && <Main toggleMain={toggleMain}/>}
                 <Header toggleMain={toggleMain}/>
+                <SearchFiltered />
             </div>
         </>
     )
