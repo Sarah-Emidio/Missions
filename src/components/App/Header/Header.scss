@@ -1,0 +1,49 @@
+@use '../mixin.scss';
+@use '../vars.scss';
+
+.header__content {
+    width: 288px;
+    font-family: sans-serif;
+    padding: 16px;
+    border-bottom: 1px solid vars.$border_grey;
+    margin-bottom: 1rem;
+    height: 5rem;
+    box-sizing: border-box;
+
+    .header__menuContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header__title {
+        font-weight: bold;
+    }
+
+    .header__subtitle {
+        font-size: 0.5rem; 
+        padding-left: 0.5rem;
+        position: relative;
+        top: -10;
+    }
+    .header__button {
+        background-color: vars.$background_grey;
+        border: none;
+        cursor: pointer;
+    }
+    .header__img {
+        width: 1rem;
+    }
+}
+
+.nav__container {
+    display: flex;
+    flex-direction: row;
+}
+
+@include mixin.smallDevices {
+    .header__content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

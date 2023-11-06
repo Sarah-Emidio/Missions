@@ -1,9 +1,15 @@
 import Main from "../components/App/Main/Main";
+import Header from "../components/App/Header/Header";
 
-const Missions =() => {
-    return(
+import '../Pages/Missions.scss';
+
+const Missions = () => {
+    return (
         <>
-            <Main />
+            <div className="container">
+                <Main />
+                <Header />
+            </div>
         </>
     )
 }
