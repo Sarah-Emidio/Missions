@@ -22,13 +22,13 @@ const Header = ({toggleMain}) => {
                 <nav >
                     <ul className='nav__container'>
                         <div className='nav__linkOn'>
-                            <li className='nav__link'>A pourvoir</li>
+                            <li className='nav__link'><a href="" className='nav__link'>A pourvoir</a></li>
                         </div>
 
-                        <li className='nav__link'>En cours</li>
-                        <li className='nav__link'>A venir</li>
-                        <li className='nav__link'>Terminées</li>
-                        <li className='nav__link'>Annulées</li>
+                        <li className='nav__link'><a href="" className='nav__link'>En cours</a></li>
+                        <li className='nav__link'><a href="" className='nav__link'>A venir</a></li>
+                        <li className='nav__link'><a href="" className='nav__link'>Terminées</a></li>
+                        <li className='nav__link'><a href="" className='nav__link'>Annulées</a></li>
                     </ul>
                 </nav>
 

@@ -21,7 +21,7 @@ const Missions = () => {
     }, []);
 
     useEffect(() => {
-        if (windowWidth <= 320) {
+        if (windowWidth <= 831) {
             setShowMain(false);
         } else {
             setShowMain(true);
@@ -35,7 +35,7 @@ const Missions = () => {
     return (
         <>
             <div className="container">
-                {showMain && <Main />}
+                {showMain && <Main toggleMain={toggleMain}/>}
                 <Header toggleMain={toggleMain}/>
             </div>
         </>

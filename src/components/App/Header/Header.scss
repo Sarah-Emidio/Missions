@@ -44,6 +44,8 @@
     .nav__link {
         gap: 1rem;
         margin-bottom: 0.7rem;
+        text-decoration: none;
+        color: vars.$font_blue;
     }
     .nav__linkOn {
         width: 5rem;
@@ -61,5 +63,23 @@
     .nav__container{
         display: flex;
         flex-direction: row;
+    }
+}
+
+@include mixin.smallTablets {
+    .header__content{
+        width: 831px;
+    }
+}
+
+@include mixin.largeTablet {
+    .header__content{
+        width: 1279px;
+    }
+}
+
+@include mixin.desktop {
+    .header__content{
+        width: 1440px;
     }
 }
