@@ -24,3 +24,21 @@
         flex-direction: column;
     }
 }
+
+.desktop {
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+  }
+  
+  @media (min-width: 1279px) {
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+  }
+  
