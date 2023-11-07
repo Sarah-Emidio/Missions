@@ -1,0 +1,36 @@
+@use '../mixin.scss';
+@use '../vars.scss';
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 16px;
+    font-family: sans-serif;
+    border: 2px solid vars.$border_grey;
+}
+
+
+.table__header {
+    // border: 2px solid vars.$border_grey;
+    padding: 10px;
+    text-align: left;
+}
+
+.table__cell{
+    border-top: 1px solid vars.$border_grey;
+    text-align: left;
+    padding: 10px;
+    // height: 2rem;
+
+    .table__img {
+        border-radius: 5rem;
+    }
+}
+
+.badge {
+    font-size: 0.6rem;
+    font-weight: 700;
+    border-radius: 5rem;
+    background-color: vars.$font_badge;
+    color: white;
+}

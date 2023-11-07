@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Main from "../components/App/Main/Main";
 import Header from "../components/App/Header/Header";
 import SearchFiltered from "../components/App/SearchFiltered/SearchFiltered";
+import Tables from "../components/App/Tables/Tables";
 
 import '../Pages/Missions.scss';
 
@@ -40,6 +41,7 @@ const Missions = () => {
                 <div className="main__content">
                     <Header toggleMain={toggleMain} />
                     <SearchFiltered />
+                    <Tables />
                 </div>
             </div>
         </>
