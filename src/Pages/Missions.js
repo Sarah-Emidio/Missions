@@ -3,6 +3,7 @@ import Main from "../components/App/Main/Main";
 import Header from "../components/App/Header/Header";
 import SearchFiltered from "../components/App/SearchFiltered/SearchFiltered";
 import Tables from "../components/App/Tables/Tables";
+import Cards from "../components/App/Cards/Cards";
 
 import '../Pages/Missions.scss';
 
@@ -41,7 +42,12 @@ const Missions = () => {
                 <div className="main__content">
                     <Header toggleMain={toggleMain} />
                     <SearchFiltered />
-                    <Tables />
+                    <div className="desktop">
+                        <Tables />
+                    </div>
+                    <div className="mobile">
+                        <Cards />
+                    </div>
                 </div>
             </div>
         </>
