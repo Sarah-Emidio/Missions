@@ -15,7 +15,7 @@ const SearchFiltered = () => {
             
             <input className='search__date' type="date" name="date" id="" />
 
-            <button className='search__check' type="submit"><img className='search__img' src={check} alt="" /> Sélectionner</button>
+            <button className='search__check' type="submit"><img className='search__checkImg' src={check} alt="" /> Sélectionner</button>
 
         </div>
         </>
