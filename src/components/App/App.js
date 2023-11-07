@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 import "../App/reset.scss";
 import '../App/mixin.scss';
+import '../App/global.scss';
 
 import Missions from "../../Pages/Missions";
 

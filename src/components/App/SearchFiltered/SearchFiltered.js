@@ -13,9 +13,9 @@ const SearchFiltered = () => {
             <input className='search__input' type="search" name="search" id="search" placeholder='Rechercher par métier, date JJ/MM/AAAA ou candidat' />
             </div>
             
-            <input className='search__img' type="date" name="date" id="date" />
+            <input className='search__date' type="date" name="date" id="" />
 
-            <button className='search__button' type="submit"><img className='search__img' src={check} alt="" />Sélectionner</button>
+            <button className='search__check' type="submit"><img className='search__img' src={check} alt="" /> Sélectionner</button>
 
         </div>
         </>
