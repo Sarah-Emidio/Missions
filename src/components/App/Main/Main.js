@@ -25,7 +25,7 @@ const Main = ({toggleMain}) => {
 
 
             <nav className='main__linkContent'>
-                <ul>
+                <ul className='main__secondLink'>
                     <li className='main__link'><a href="/" className='main__link'>Tableau de bord</a></li>
                     
                     <li className='main__link'><a href="/" className='main__link'>Planning</a></li>
@@ -35,7 +35,7 @@ const Main = ({toggleMain}) => {
                     <li className='main__link'><a href="/" className='main__link'>Factures</a></li>
                 </ul>
 
-                <ul>
+                <ul className='main__secondLink'>
                     <li className='main__link'><a href="/" className='main__link'>Paramètres</a></li>
                     <li className='main__link'><a href="/" className='main__link'>Aide</a></li>
                     <li className='main__link'><a href="/" className='main__link'>Factures</a></li>
