@@ -1,0 +1,45 @@
+@use '../mixin.scss';
+@use '../vars.scss';
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin: 16px;
+  }
+  
+  .card__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+  }
+  
+  .card__header,
+  .card__cell {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .card__img {
+    width: 50px;
+    height: 50px;
+  }
