@@ -34,6 +34,7 @@
     padding: rem;
     margin-right: 1rem;
     cursor: pointer;
+    border: 1px solid vars.$border_grey;
 }
 
 .search__check {
@@ -41,6 +42,7 @@
     flex-direction: row;
     background-color: vars.$background_grey;
     cursor: pointer;
+    border: 1px solid vars.$border_grey;
 
     .search__checkImg {
         height: 15px;
