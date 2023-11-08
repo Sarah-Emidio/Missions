@@ -47,6 +47,9 @@ const Missions = () => {
                     </div>
                     <div className="mobile">
                         <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
                     </div>
                 </div>
             </div>
