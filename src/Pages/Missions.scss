@@ -6,13 +6,13 @@
     flex-direction: column;
     box-sizing: border-box;
     width: 98%;
-    height: 100vh;
+    margin-right: 16px;
 }
 
 .main__content {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }
 
 @include mixin.smallDevices {

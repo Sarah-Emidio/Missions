@@ -5,7 +5,6 @@
 .main__container {
     background-color: vars.$background_grey;
     color: vars.$font_blue;
-    width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -31,7 +30,12 @@
         background-color: vars.$background_grey;
         border: none;
         cursor: pointer;
+        margin: 1rem 0 0.5rem 1rem;
     }
+
+    // .main__buttonHideContent {
+    //     text-align: right !important;
+    // }
 
     .main_buttonContainer {
         display: flex;
@@ -117,7 +121,6 @@
     ul {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
     }
     
 }

@@ -4,8 +4,7 @@
 .SearchFiltered__container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin: 0 16px 0 16px;
+    margin: 16px 16px 16px 16px;
     width: 100%;
 }
 
@@ -25,17 +24,17 @@
         border: none;
         width: 90%;
         box-sizing: border-box;
-        // height: 1rem;
+    }
+    .search__date {
+        height: 2rem;
+        padding: rem;
+        margin-right: 1rem;
+        cursor: pointer;
+        border: 1px solid vars.$border_grey;
     }
 }
 
-.search__date {
-    height: 1rem;
-    padding: rem;
-    margin-right: 1rem;
-    cursor: pointer;
-    border: 1px solid vars.$border_grey;
-}
+
 
 .search__check {
     display: flex;
