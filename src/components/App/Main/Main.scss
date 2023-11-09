@@ -3,6 +3,7 @@
 
 
 .main__container {
+    width: 200px;
     height: 100vh;
     background-color: vars.$background_grey;
     color: vars.$font_blue;
@@ -36,7 +37,7 @@
 
     .main_buttonContainer {
         display: flex;
-        justify-content: center;
+        align-content: center;
     }
 
     .main__button {
