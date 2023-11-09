@@ -33,10 +33,6 @@
         margin: 1rem 0 0.5rem 1rem;
     }
 
-    // .main__buttonHideContent {
-    //     text-align: right !important;
-    // }
-
     .main_buttonContainer {
         display: flex;
         justify-content: center;
@@ -56,6 +52,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        height: 100%;
         margin-top: 1rem;
     }
 
@@ -105,9 +102,6 @@
         flex-direction: column;
         justify-content: space-between;
         margin-top: 1rem;
-        height: 50%;
-    }
-    .main__secondLink {
         height: 50%;
     }
 
