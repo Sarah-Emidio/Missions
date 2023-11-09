@@ -50,24 +50,38 @@
   }
 }
 
-.badge {
-  display: inline-block;
-  padding: .25em .4em;
-  font-size: 75%;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  border-radius: .25rem;
-  background-color: vars.$background_badge;
-  color: black;
-}
-
 
 
 @include mixin.smallDevices {
-  .card__head {
+
+  .card {
+    width: 100%;
+  }
+
+  .card__head__metierContent {
+   display: flex;
+   flex-direction: row;
+  }
+
+  .card__head__aligneBadge {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+  }
+
+  .card__head__dateContent {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
+
+  .badge {
+    margin-bottom: 0;
+  }
+
+  // .card__head {
+  //   display: flex;
+  //   flex-direction: row;
+  //   width: 100%;
+  // }
 }

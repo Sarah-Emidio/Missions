@@ -6,15 +6,21 @@ const Cards = () => {
         <div className="card">
             <div className="card__head">
                 <div className='card__head__metierContent'>
-                   
+
                     <p className='card__head__metier'>Métiers</p>
                     <span className='card__head__price'>00,00€</span>
-               
+
                 </div>
-                <p className='card__head__badge'>Badge</p>
+
 
                 <div className='card__head__dateContent'>
-                    <p className='card__head__date'> Date</p>
+
+                    <span className='card__head__aligneBadge'>
+
+                        <p className='card__head__badge'>Badge</p>
+                        <p className='card__head__date'> Date</p>
+                    </span>
+
                     <p className='card__head__hour'>horaire</p>
                 </div>
             </div>
