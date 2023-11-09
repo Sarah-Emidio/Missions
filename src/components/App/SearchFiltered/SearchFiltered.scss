@@ -4,7 +4,7 @@
 .SearchFiltered__container {
     display: flex;
     flex-direction: row;
-    margin: 16px 16px 16px 16px;
+    margin: 0 16px 16px 16px;
     width: 288px;
     gap: 0.3rem;
 }
@@ -12,6 +12,7 @@
 .search__container {
     display: flex;
     flex-direction: row;
+    align-items: center;
     border: 1px solid vars.$border_grey;
     width: 60%;
     padding: 0.5rem 1rem;
@@ -57,7 +58,7 @@
     }
 
     .search__container {
-        width: 70%;
+        width: 100%;
     }
 
     .search__input {
@@ -71,11 +72,10 @@
 
     .search__date {
         height: 2rem;
-        margin-right: 0.5rem;
     }
 
     .search__check {
-        height: 2.2rem;
+        height: 2.4rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         gap: 0.5rem;
@@ -85,5 +85,8 @@
 @include mixin.desktop {
     .SearchFiltered__container {
         margin-right: 16px;
+    }
+    .search__container {
+        width: 100%;
     }
 }
