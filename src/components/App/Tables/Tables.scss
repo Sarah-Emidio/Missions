@@ -27,14 +27,12 @@
     }
 }
 
-
-
-
 .badge {
     margin-left: 0.5rem;
-    font-size: 0.6rem;
-    font-weight: 700;
-    border-radius: 5rem;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
     background-color: vars.$background_badge;
-    color: black;
+    color: vars.$font_grey;
 }
